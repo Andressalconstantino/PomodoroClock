@@ -145,19 +145,19 @@ document.getElementById('play').addEventListener('click', function (){
 /* SOUND */
 
 document.getElementById('rain').addEventListener('click', function (){
-    document.getElementById('audio').src = "rain.mp3";
+    document.getElementById('audio').src = "sound/rain.mp3";
 })
 document.getElementById('crowd').addEventListener('click', function (){
-    document.getElementById('audio').src = "crowd.mp3";
+    document.getElementById('audio').src = "sound/crowd.mp3";
 })
 document.getElementById('ocean').addEventListener('click', function (){
-    document.getElementById('audio').src = "ocean.mp3";
+    document.getElementById('audio').src = "sound/ocean.mp3";
 })
 document.getElementById('streets').addEventListener('click', function (){
-    document.getElementById('audio').src = "streets.mp3";
+    document.getElementById('audio').src = "sound/streets.mp3";
 })
 document.getElementById('creepy').addEventListener('click', function (){
-    document.getElementById('audio').src = "creepy.mp3";
+    document.getElementById('audio').src = "sound/creepy.mp3";
 })
 document.getElementById('none').addEventListener('click', function (){
     document.getElementById('audio').src = "";
