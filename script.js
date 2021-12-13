@@ -160,5 +160,5 @@ document.getElementById('creepy').addEventListener('click', function (){
     document.getElementById('audio').src = "sound/creepy.mp3";
 })
 document.getElementById('none').addEventListener('click', function (){
-    document.getElementById('audio').src = "sound/alarm.mp3";
+    document.getElementById('audio').src = "";
 })
