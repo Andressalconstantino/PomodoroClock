@@ -131,7 +131,7 @@ function startTimer(duration, display, state) {
 let state = false;
 document.getElementById('play').addEventListener('click', function (){
     state = false;
-    let countMinutes = 60 * 25,
+    let countMinutes = 60 * 0.10,
         display = document.querySelector('#time');
     startTimer(countMinutes, display, state);
     document.getElementById('continue').style.display = 'none'
@@ -160,5 +160,5 @@ document.getElementById('creepy').addEventListener('click', function (){
     document.getElementById('audio').src = "sound/creepy.mp3";
 })
 document.getElementById('none').addEventListener('click', function (){
-    document.getElementById('audio').src = "";
+    document.getElementById('audio').src = "sound/alarm.mp3";
 })
