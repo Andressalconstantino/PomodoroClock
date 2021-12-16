@@ -89,7 +89,7 @@ function startTimer(duration, display, state) {
     let timer = duration, minutes, seconds;
     setInterval(function () {
         if(!state) {
-
+            document.getElementById('alarm').src = "";
             document.getElementById('sb').addEventListener('click', function (){
                 timer = (60 * 5), minutes, seconds;
             })
@@ -123,6 +123,7 @@ function startTimer(duration, display, state) {
                 document.getElementById('image').src = "reload.png";
                 document.getElementById('play').style.display = 'block'
                 document.getElementById('pause').style.display = 'none'
+                document.getElementById('alarm').src = "sound/alarm.wav";
             }
         }
     }, 1000);
