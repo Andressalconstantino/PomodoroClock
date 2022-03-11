@@ -132,7 +132,7 @@ function startTimer(duration, display, state) {
 let state = false;
 document.getElementById('play').addEventListener('click', function (){
     state = false;
-    let countMinutes = 60 * 0.10,
+    let countMinutes = 60 * 25,
         display = document.querySelector('#time');
     startTimer(countMinutes, display, state);
     document.getElementById('continue').style.display = 'none'

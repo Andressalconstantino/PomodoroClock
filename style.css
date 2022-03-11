@@ -46,7 +46,9 @@ body{
 button{
     border: none;
     background-color: transparent;
-    color: #2B2B2B;
+    color: #1d1c1c;
+    font-weight: 500;
+    font-size: 14px;
 }
 .tab{
     border-bottom: 2px solid rgb(93, 88, 99);
@@ -59,8 +61,11 @@ hr{
 }
 .clockbox, .wallpaper, .sound{
     margin: 10rem;
-    background-color: rgba(93, 88, 99, 0.68);
+    /* background-color: rgba(93, 88, 99, 0.68); */
     /*pading: top right bottom left*/
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 35rem;
     height: 60%;
     align-items: center;
